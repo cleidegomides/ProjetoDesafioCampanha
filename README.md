@@ -10,7 +10,7 @@ que tem um relacionamento com um torcedor, o qual preicsará realizar um cadastr
 #DOCUMENTAÇÃO: URL para acesso à Documentação da API: http://localhost:8080/swagger-ui.html
 
 #COMANDOS UTILIZADOS NO CMDER PARA RODAR O MYSQL NO DOCKER:
-docker run -p 3306:3306 --name some-mysql -e MYSQL_ROOT_PASSWORD=xxxxx -d mysql:tag
-docker container ls -a
-docker container start some-mysql
-docker container stop some-mysql
+#docker run -p 3306:3306 --name some-mysql -e MYSQL_ROOT_PASSWORD=xxxxx -d mysql:tag;
+#docker container ls -a;
+#docker container start some-mysql;
+#docker container stop some-mysql.
