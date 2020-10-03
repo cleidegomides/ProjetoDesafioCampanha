@@ -1,11 +1,8 @@
 # ProjetoDesafioCampanha
+#FERRAMENTAS: Na elabaoração da API foram utilizado as seguintes ferramentas: Intellij, Dbeaver, Docker, MySQL e Postman.
 
-#Apresentação:
-Construção de uma API para a criação de um programa campanha que se relaciona com o torcedor. A aplicação fornece serviços como: Criar uma campanha, cadastrar um torcedor e um time. 
-A aplicação possibilita criar, deletar, atualizar e consultar a entidade desejada, através da api JpaRepository. 
- 
-#Autenticação:
-Não possui mecanismo para realizar autenticação para fazer requisição a esta API
- 
-#Error Codes
-O projeto possui exceptions criadas para retornar uma mensagem de erro conforme a requisição do usuário.
+#BACK-END: Spring Boot, Spring, Swagger2(RESTful API).
+
+#FUNÇÃO: Desenvoler uma API que possibilita ao usuário criar, pesquisar, atualizar e deletar uma campanha, que tem um relacionamento com um torcedor que preicsará realizar um cadastro. A relação entre a campanha e o torcedor é feita através do time do coração.
+
+#DOCUMENTAÇÃO: URL para acesso à Documentação da API: http://localhost:8080/swagger-ui.html
