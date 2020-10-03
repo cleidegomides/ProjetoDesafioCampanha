@@ -14,8 +14,6 @@
 	<name>desafio_campanha</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
-		<!--		<spring-fox.version>2.9.2</spring-fox.version>-->
-		<!--		<spring-security-oauth2.version>2.3.7.RELEASE</spring-security-oauth2.version>-->
 		<java.version>1.8</java.version>
 		<org.mapstruct.version>1.4.0.Final</org.mapstruct.version>
 	</properties>
@@ -28,19 +26,6 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
-		<!--		<dependency>-->
-		<!--			<groupId>org.springframework.boot</groupId>-->
-		<!--			<artifactId>spring-boot-starter-hateoas</artifactId>-->
-		<!--			<version>2.1.14.RELEASE</version>-->
-		<!--		</dependency>-->
-		<!--		<dependency>-->
-		<!--			<groupId>org.springframework.boot</groupId>-->
-		<!--			<artifactId>spring-boot-starter-oauth2-resource-server</artifactId>-->
-		<!--		</dependency>-->
-		<!--		<dependency>-->
-		<!--			<groupId>org.springframework.boot</groupId>-->
-		<!--			<artifactId>spring-boot-starter-oauth2-client</artifactId>-->
-		<!--		</dependency>-->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-devtools</artifactId>
@@ -61,15 +46,6 @@
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
 		</dependency>
-		<!--		<dependency>-->
-		<!--			<groupId>org.springframework.security.oauth</groupId>-->
-		<!--			<artifactId>spring-security-oauth2</artifactId>-->
-		<!--			<version>${spring-security-oauth2.version}</version>-->
-		<!--		</dependency>-->
-		<!--		<dependency>-->
-		<!--			<groupId>org.springframework.boot</groupId>-->
-		<!--			<artifactId>spring-boot-starter-security</artifactId>-->
-		<!--		</dependency>-->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
